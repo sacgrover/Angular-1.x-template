@@ -1,0 +1,9 @@
+<p>Cart Items</p>
+<ul class="list-group">
+  <li class="list-group-item" ng-repeat="i in cart.items" ng-show="cart.items.length">
+  	<cart-item item="i" /> 
+  </li>  
+  <li class="list-group-item" ng-show="cart.items.length == 0"> 
+  		<i>(Empty Cart)</i>
+  </li>
+</ul>

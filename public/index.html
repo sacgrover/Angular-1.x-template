@@ -1,0 +1,68 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head >
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>MyChemist - The local chemist</title>
+
+    <link rel="stylesheet" type="text/css" href="/bower_components/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="/stylesheets/style.css">
+  </head>
+
+  <body ng-app="ecommerce">
+
+    <nav class="navbar navbar-inverse navbar-fixed-top" ui-view="header"></nav>
+
+    <div class="container">
+      <div class="row">
+          <div class="col-sm-7" ui-view=""></div>
+          <div class="col-sm-4" ui-view="cart"></div>
+      </div>
+     
+    </div><!-- /.container -->
+
+
+    <div class="footer" ui-view="footer"></div>
+
+
+    
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script type="text/javascript" src="/bower_components/jquery/dist/jquery.min.js"></script>
+    <script type="text/javascript" src="/bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="/bower_components/angular/angular.min.js"></script>
+    <script type="text/javascript" src="/bower_components/angular-ui-router/release/angular-ui-router.min.js"></script>
+    <script type="text/javascript" src="/bower_components/angular-resource/angular-resource.min.js"></script>
+    <script type="text/javascript" src="/bower_components/lodash/dist/lodash.min.js"></script>
+    <script type="text/javascript" src="index.js"></script>
+    <script type="text/javascript" src="/home/main.route.js"></script>
+    <script type="text/javascript" src="/product/product.controller.js"></script>
+    <script type="text/javascript" src="/cart/cart.controller.js"></script>
+    <script type="text/javascript" src="/product/product.service.js"></script>
+    <script type="text/javascript" src="/product/product.js"></script>
+    <script type="text/javascript" src="/cart/cart.service.js"></script>
+    <script type="text/javascript" src="/product/product.route.js"></script>
+    <script type="text/javascript" src="/cart/cart.directive.js"></script>
+    <script type="text/javascript" src="/product/product.directive.js"></script>
+    <script type="text/javascript" src="/product/product.filter.js"></script>
+    <script type="text/javascript" src="/auth/auth.route.js"></script>
+    <script type="text/javascript" src="/auth/auth.service.js"></script>
+  </body>
+</html>
+
+
+
+
+
+
+
+
+
+

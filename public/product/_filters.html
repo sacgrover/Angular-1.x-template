@@ -1,0 +1,24 @@
+<div class="row" style="margin-bottom: 20px">
+	<div class="col-lg-6">
+		<div class="input-group">
+		  <input type="text" class="form-control" placeholder="Search for..." ng-model="ctrl.q">
+		  <span class="input-group-btn">
+		    <button class="btn btn-default" type="button">Go!</button>
+		  </span>
+		</div><!-- /input-group -->
+	</div><!-- /.col-lg-6 -->
+	<div class="col-lg-6">
+		<div class="dropdown pull-right">
+		  <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown">
+		    Name
+		    <span class="caret"></span>
+		  </button>
+		  <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+		    <li><a href="#" ng-click="ctrl.setSort('name')">Name</a></li>
+		    <li><a href="#" ng-click="ctrl.setSort('price')">Price</a></li>
+		  </ul>
+		</div>
+	</div>	
+	<br>
+	<br>
+</div>
